@@ -1,3 +1,9 @@
+# Описание
+
+Для задания условия победы используется переменная окружения `REACT_APP_WIN_CONDITION`. Если строка состоит не только из числовых символов, то будет использовано значение по умолчанию - 5.
+
+Думаю тут достаточно много пространства для улучшения. Делал пару дней.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.

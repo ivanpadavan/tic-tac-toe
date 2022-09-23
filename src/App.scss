@@ -1,0 +1,36 @@
+.App {
+  display: grid;
+  overflow: hidden;
+  height: 100vh;
+  grid-template-columns: 50px 1fr 50px;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas:
+    'top top top'
+    'left field right'
+    'bottom bottom bottom';
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(67, 67, 234);
+  color: white;
+  transition: all 0.3s ease-in;
+  &:hover {
+    transform: scale(1.1);
+    background-color: rgb(49, 49, 241);
+  }
+  &.left {
+    grid-area: left;
+  }
+  &.top {
+    grid-area: top;
+  }
+  &.right {
+    grid-area: right;
+  }
+  &.bottom {
+    grid-area: bottom;
+  }
+}

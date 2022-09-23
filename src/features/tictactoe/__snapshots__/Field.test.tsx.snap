@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles offsets 1`] = `
+Map {
+  Object {
+    "xOffset": -1,
+    "yOffset": -1,
+  } => "
+(0 0) (0 1) (0 2)
+(1 0) (1 1) (1 2)
+(2 0) (2 1) (2 2)",
+  Object {
+    "xOffset": -1,
+    "yOffset": 0,
+  } => "
+(0 -1) (0 0) (0 1)
+(1 -1) (1 0) (1 1)
+(2 -1) (2 0) (2 1)",
+  Object {
+    "xOffset": -1,
+    "yOffset": 1,
+  } => "
+(0 -2) (0 -1) (0 0)
+(1 -2) (1 -1) (1 0)
+(2 -2) (2 -1) (2 0)",
+  Object {
+    "xOffset": 0,
+    "yOffset": -1,
+  } => "
+(-1 0) (-1 1) (-1 2)
+(0 0) (0 1) (0 2)
+(1 0) (1 1) (1 2)",
+  Object {
+    "xOffset": 0,
+    "yOffset": 0,
+  } => "
+(-1 -1) (-1 0) (-1 1)
+(0 -1) (0 0) (0 1)
+(1 -1) (1 0) (1 1)",
+  Object {
+    "xOffset": 0,
+    "yOffset": 1,
+  } => "
+(-1 -2) (-1 -1) (-1 0)
+(0 -2) (0 -1) (0 0)
+(1 -2) (1 -1) (1 0)",
+  Object {
+    "xOffset": 1,
+    "yOffset": -1,
+  } => "
+(-2 0) (-2 1) (-2 2)
+(-1 0) (-1 1) (-1 2)
+(0 0) (0 1) (0 2)",
+  Object {
+    "xOffset": 1,
+    "yOffset": 0,
+  } => "
+(-2 -1) (-2 0) (-2 1)
+(-1 -1) (-1 0) (-1 1)
+(0 -1) (0 0) (0 1)",
+  Object {
+    "xOffset": 1,
+    "yOffset": 1,
+  } => "
+(-2 -2) (-2 -1) (-2 0)
+(-1 -2) (-1 -1) (-1 0)
+(0 -2) (0 -1) (0 0)",
+}
+`;
+
+exports[`rerenders when resizes 1`] = `
+Array [
+  Object {
+    "numOfCells": 1,
+    "side": 1,
+  },
+  Object {
+    "numOfCells": 9,
+    "side": 2,
+  },
+  Object {
+    "numOfCells": 9,
+    "side": 3,
+  },
+  Object {
+    "numOfCells": 25,
+    "side": 4,
+  },
+  Object {
+    "numOfCells": 25,
+    "side": 5,
+  },
+  Object {
+    "numOfCells": 49,
+    "side": 6,
+  },
+  Object {
+    "numOfCells": 49,
+    "side": 7,
+  },
+  Object {
+    "numOfCells": 81,
+    "side": 8,
+  },
+  Object {
+    "numOfCells": 81,
+    "side": 9,
+  },
+  Object {
+    "numOfCells": 121,
+    "side": 10,
+  },
+  Object {
+    "numOfCells": 121,
+    "side": 11,
+  },
+]
+`;
